@@ -1,0 +1,4 @@
+This project is a Discord bot that uses Retrieval-Augmented Generation (RAG).
+It retrieves relevant information from a knowledge base and generates answers.
+
+RAG helps reduce hallucinations in AI by grounding responses in real data.
