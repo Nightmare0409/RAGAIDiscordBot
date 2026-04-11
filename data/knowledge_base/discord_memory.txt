@@ -2,3 +2,5 @@ The project uses Python and FAISS
 RAG helps reduce hallucinations
 We are building a Discord AI bot
 !ask what are we building
+!ask what is RAG
+!ask why is it useful

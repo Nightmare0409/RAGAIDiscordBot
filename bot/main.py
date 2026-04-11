@@ -31,6 +31,9 @@ intents.message_content = True
 # Step 2: Create bot
 bot = commands.Bot(command_prefix="!", intents=intents)
 
+
+chat_history = []
+
 # Event: Bot has connected
 @bot.event
 async def on_ready():
@@ -43,13 +46,21 @@ async def ping(ctx):
 
 @bot.command()
 async def ask(ctx, *, question):
-    # Step 1: retrieve relevant docs
     docs = retriever.retrieve(question)
 
-    # Step 2: generate response
-    answer = generator.generate_answer(question, docs)
+    answer = generator.generate_answer(
+        question,
+        docs,
+        chat_history
+    )
 
-    # Step 3: send response
+    # Save conversation
+    chat_history.append((question, answer))
+
+    # Keep memory small (last 5 interactions)
+    if len(chat_history) > 5:
+        chat_history.pop(0)
+
     await ctx.send(answer)
 
 

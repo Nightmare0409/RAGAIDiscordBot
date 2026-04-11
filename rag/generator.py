@@ -5,16 +5,19 @@ class Generator:
     def __init__(self):
         self.client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-    def generate_answer(self, question, context_docs):
-        # Step 1: Prepare context
-        if not context_docs:
-            context = "No relevant context found."
-        else:
-            context = "\n\n".join(context_docs)
+    def generate_answer(self, question, context_docs, chat_history=None):
+        context = "\n\n".join(context_docs) if context_docs else "No relevant context found."
 
-        # Step 2: Build prompt
+        history_text = ""
+        if chat_history:
+            for q, a in chat_history:
+                history_text += f"User: {q}\nAssistant: {a}\n"
+
         prompt = f"""
-You are an AI assistant using retrieved context to answer questions.
+You are an AI assistant using retrieved context and conversation history.
+
+Conversation History:
+{history_text}
 
 Context:
 {context}
@@ -22,13 +25,9 @@ Context:
 Question:
 {question}
 
-Instructions:
-- Answer clearly
-- Use the context when possible
-- If the answer is not in the context, say you don't know
+Answer clearly and accurately.
 """
 
-        # Step 3: Call OpenAI
         response = self.client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
@@ -38,5 +37,4 @@ Instructions:
             temperature=0.3
         )
 
-        # Step 4: Return response text
         return response.choices[0].message.content
