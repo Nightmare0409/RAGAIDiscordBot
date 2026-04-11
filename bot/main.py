@@ -34,6 +34,12 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 chat_history = []
 
+@bot.command()
+async def clear(ctx):
+    global chat_history
+    chat_history = []
+    await ctx.send("🧹 Conversation memory cleared.")
+
 # Event: Bot has connected
 @bot.event
 async def on_ready():
