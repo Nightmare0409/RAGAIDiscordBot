@@ -1,30 +1,41 @@
 import os
+import numpy as np
+from sentence_transformers import SentenceTransformer
+import faiss
 
 class Retriever:
     def __init__(self, data_path="data/knowledge_base"):
-        self.data_path = data_path
-        self.documents = self.load_documents()
+        self.model = SentenceTransformer("all-MiniLM-L6-v2")
 
-    def load_documents(self):
-        docs = []
+        self.documents = []
+        self.embeddings = []
 
-        # Loop through all files in knowledge_base
-        for filename in os.listdir(self.data_path):
-            filepath = os.path.join(self.data_path, filename)
+        # Load documents
+        for filename in os.listdir(data_path):
+            with open(os.path.join(data_path, filename), "r", encoding="utf-8") as f:
+                text = f.read()
 
-            with open(filepath, "r", encoding="utf-8") as f:
-                docs.append(f.read())
+                # Split into chunks (by paragraphs)
+                chunks = text.split("\n\n")
 
-        return docs
+                for chunk in chunks:
+                    if chunk.strip():
+                        self.documents.append(chunk.strip())
 
-    def get_relevant_docs(self, query):
-        results = []
-        query_words = query.lower().split()
+        # Convert documents to embeddings
+        self.embeddings = self.model.encode(self.documents)
 
-        for doc in self.documents:
-            for word in query_words:
-                if word in doc.lower():
-                    results.append(doc)
-                    break
+        # Create FAISS index
+        dimension = self.embeddings.shape[1]
+        self.index = faiss.IndexFlatL2(dimension)
+        self.index.add(np.array(self.embeddings))
 
-        return results[:2]
+    def retrieve(self, query, top_k=2):
+        query_embedding = self.model.encode([query])
+
+        distances, indices = self.index.search(
+            np.array(query_embedding), top_k
+        )
+
+        results = [self.documents[i] for i in indices[0]]
+        return results

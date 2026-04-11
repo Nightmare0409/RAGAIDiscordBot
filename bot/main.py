@@ -44,13 +44,26 @@ async def ping(ctx):
 @bot.command()
 async def ask(ctx, *, question):
     # Step 1: retrieve relevant docs
-    docs = retriever.get_relevant_docs(question)
+    docs = retriever.retrieve(question)
 
     # Step 2: generate response
     answer = generator.generate_answer(question, docs)
 
     # Step 3: send response
     await ctx.send(answer)
+
+
+@bot.event
+async def on_message(message):
+    # Ignore bot messages
+    if message.author == bot.user:
+        return
+
+    # Save message to memory file
+    with open("data/knowledge_base/discord_memory.txt", "a", encoding="utf-8") as f:
+        f.write(message.content + "\n")
+
+    await bot.process_commands(message)
 
 # Run bot
 bot.run(TOKEN)
