@@ -8,3 +8,74 @@ The bot is built using Python and discord.py.
 It integrates with OpenAI API for generating responses.
 
 RAG reduces hallucinations by grounding responses in real data.
+
+
+
+
+
+
+
+
+Duremudira has the bodily structure typical of most Elder Dragons.
+ 
+It ends in a dark gray set of five spears of varying size which are connected to one another at a few points. 
+
+Duremudira also has an aura of cold air radiating around it.
+
+When in its second phase, ice will completely cover the claws, and sharp ice shards will appear on the head and neck.
+In addition, red vein patterns appear throughout the body; the wings are spread a bit more and the aura becomes absent.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FLOOD: 
+In the event of a flood, RAs are instructed to call the RD/GRDs of the community/Primary duty # 
+based on the time of day. During the day, the RD/GRDs of the community should be contacted. If 
+they are not available, the Primary duty # should be called. After business hours, the duty phone 
+number should be called. RAs should be able to describe the situation as well as they can to POD 
+and/or go to the scene and confirm what they may have been told by a resident. If you are able to 
+determine the source of water, you should include that information in your call up. 
+
+Record the damages using the duty phone camera for documentation and assessment. Check 
+the neighboring and below rooms or apartments to make sure the flooding has not seeped 
+further. If possible, take information of all individuals present.
+
+Document situation in an IR. Submit an E-maintenance request to document the damage and 
+follow up with your supervisor as needed. 
+
+SNOW EMERGENCY:  
+A snow emergency is usually declared by the University when we are expecting to experience 
+severe weather. During snow emergencies, all residential vehicles must be moved to the covered 
+levels of the P29 and P32 parking structures (note: the uncovered, top levels of the structures are 
+exempt from this policy and must be vacated during a snow emergency.), the Ann V. Nicholson 
+student apartments lot, the George T. Matthews student apartments lots, and P35 parking lot. 
+This is necessary for snow plows to come in and clear out our standard lots.  
+
+Vehicles left in any other main campus lots during a snow emergency will be impounded at the 
+owner's expense. OU will not assess a fine for Policy 483 violations, but retrieval of impounded 
+vehicles will require payment of a towing fee and may also involve storage fees, charged per day. 
+Housing's role in this process is to ensure that flyers and notices to residents about moving their 
+cars are being properly posted/sent out. Your supervisor will reach out and inform you when 
+there is a Snow Emergency. They will provide RA staff with flyers, and a deadline to have them 
+posted on entrances and exits throughout the building. 
+
+BODILY FLUIDS: 
+If an RA or resident reports bodily fluids in a common space, report to the scene to assess the 
+situation and take pictures if needed. Then call up to POD and inform them of the situation. The 
+POD will contact facilities and make them aware of what has been found. If it is determined by 
+Facilities that nobody is immediately coming out, do your best to block off the area using wet 
+f
+loor signs, paper signs, caution tape, etc. GRDs, RDs, and RAs should never touch any bodily 
+f
+luids.  

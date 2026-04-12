@@ -4,3 +4,10 @@ We are building a Discord AI bot
 !ask what are we building
 !ask what is RAG
 !ask why is it useful
+!clear
+!ask what is the name of a dragon you know about in in the files you reference
+!ask how many phases does it have?
+!ask Try again, as there is info in this discord server that may suggest otherwise.
+In its third phase, most of its body becomes stained with poison, becoming a pinkish red; certain parts like the horns turn a reddish orange color; 
+the eyes and vein patterns turn white; the ice on its claws and head increase in size; ice spikes and coverings become present on the wings, and the tail spears get icy extensions.
+!ask Now try. I shared the info.
