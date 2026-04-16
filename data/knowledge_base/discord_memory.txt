@@ -11,3 +11,76 @@ We are building a Discord AI bot
 In its third phase, most of its body becomes stained with poison, becoming a pinkish red; certain parts like the horns turn a reddish orange color; 
 the eyes and vein patterns turn white; the ice on its claws and head increase in size; ice spikes and coverings become present on the wings, and the tail spears get icy extensions.
 !ask Now try. I shared the info.
+!ask What is the RA protocol for Snow Emergencies?
+!ping
+!ask What's 2 plus 2
+!ask what were the two last questions asked in this server?
+!ask What is RA protocol for Snow Emergencies?
+!ask While there isn't any information about procedures for a tornado in our knowledge base, what do you is the likely procedures and why? Make your response informational but fun.
+!ask While there isn't any info about procedures for a tornado in our knowledge base, what do you is the likely procedures? Make your response informational but fun.
+!ask While there isn't any info about procedures for a tornado in our knowledge base, what do you is the likely procedures?
+!ask There isn't any info about procedures for a tornado, but what do you is the likely procedures?
+!ask What would you do during a tornado?
+!ask What is your favorite character from Dark Souls 2 and why?
+1
+2
+3
+4
+5
+6
+7
+8
+9
+!ask What is RA protocol for Snow Emergencies?
+!ask Who is my favorite Graduate Resident Director?
+Moss
+!try again
+!ask try again
+!ask try again on answering who is my favorite Graduate Resident Director.
+!ask Who is my favorite Graduate Resident Director?
+!ask Who is my favorite Graduate Resident Director. The info is in this server.
+!clear
+!ask Who is my favorite Graduate Resident Director?
+! Who is my favorite Graduate Resident Director (GRD) ?
+!ask  Who is my favorite Graduate Resident Director (GRD) ?
+!ask  Who is my favorite Graduate Resident Director (GRD) ?
+!ask Who is also my favorite Graduate Resident Director?
+CAMPUS SWIPE SYSTEM: 
+INDIVIDUAL SWIPE ACCESS: 
+Our residence halls rely on two swipe systems: Blackboard, which is primarily run by the ID card 
+office on campus and SiPass, which is primarily run by OUPD. Hamlin, Oak View, and Vandenberg 
+operate on the Blackboard system, while Hillcrest runs on SiPass. The external doors for Van 
+Wagoner operate on Blackboard, while the interior doors operate on SiPass. Additionally, all 
+community key boxes operate on SiPass. During business hours, If you run into a student who is  
+experiencing swipe/access issues for a building on the Blackboard system, you should direct the 
+student to the Campus ID Card Office. If a student is experiencing these issues after hours, check 
+the student out a department card, and advise the student to go to the Campus ID Card Office 
+the following day.  
+If a student is  experiencing swipe issues for Hillcrest or the Van Wagoner internal doors, during 
+business hours, you should contact the OUPD IT Help desk to assist with getting their access 
+turned back on. You can contact the OUPD Tech Desk at (248-370-3407). You can also call OUPD 
+and request to be transferred to their IT Help Desk. If you are unable to get in touch with the IT 
+desk, you should check the student out a department card, and email 
+servicedesk@oupolice.com, notifying them that a student does not have access. Include the 
+student’s name, ID card number, GID #, and email. This process is the same after hours.Please 
+note that if staff members receive new ID cards, staff access must be re-added.
+CAMPUS SWIPE SYSTEM: 
+INDIVIDUAL SWIPE ACCESS: 
+Our residence halls rely on two swipe systems: Blackboard, which is primarily run by the ID card 
+office on campus and SiPass, which is primarily run by OUPD. Hamlin, Oak View, and Vandenberg 
+operate on the Blackboard system, while Hillcrest runs on SiPass. The external doors for Van 
+Wagoner operate on Blackboard, while the interior doors operate on SiPass. Additionally, all 
+community key boxes operate on SiPass. During business hours, If you run into a student who is  
+experiencing swipe/access issues for a building on the Blackboard system, you should direct the 
+student to the Campus ID Card Office. If a student is experiencing these issues after hours, check 
+the student out a department card, and advise the student to go to the Campus ID Card Office 
+the following day.  
+If a student is  experiencing swipe issues for Hillcrest or the Van Wagoner internal doors, during 
+business hours, you should contact the OUPD IT Help desk to assist with getting their access 
+turned back on. You can contact the OUPD Tech Desk at (248-370-3407). You can also call OUPD 
+and request to be transferred to their IT Help Desk. If you are unable to get in touch with the IT 
+desk, you should check the student out a department card, and email 
+servicedesk@oupolice.com, notifying them that a student does not have access. Include the 
+student’s name, ID card number, GID #, and email. This process is the same after hours.Please 
+note that if staff members receive new ID cards, staff access must be re-added.
+!ask What is RA protocol during a snow emergency?
