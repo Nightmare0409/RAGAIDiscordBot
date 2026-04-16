@@ -69,5 +69,4 @@ This project builds upon open-source tools including:
 
 * discord.py
 * OpenAI API
-* HuggingFace models
 * FAISS vector search
